@@ -191,6 +191,7 @@ class BoltzWriter(BasePredictionWriter):
                         "confidence_score",
                         "ptm",
                         "iptm",
+                        "tcr_pmhc_iptm",
                         "ligand_iptm",
                         "protein_iptm",
                         "complex_plddt",
