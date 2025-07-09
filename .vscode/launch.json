@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "inputs": [],
+    "compounds": [],
+    "configurations": [
+        {
+            "name": "GPU-Debug",
+            "justMyCode": false,
+            "request": "attach",
+            "type": "debugpy",
+            "connect": {
+                "host": "nova015",
+                "port": 7000,
+            },
+        },
+    ],
+}

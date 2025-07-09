@@ -1,0 +1,34 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.rulers": [
+            79,
+        ],
+        "editor.tabSize": 4,
+    },
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "mypy-type-checker.args": [
+        "--config-file=${workspaceFolder}/pyproject.toml",
+    ],
+    "mypy-type-checker.importStrategy": "fromEnvironment",
+    "python.analysis.autoFormatStrings": true,
+    "python.languageServer": "Pylance",
+    "python.testing.pytestEnabled": true,
+    "ruff.enable": true,
+    "ruff.lint.ignore": [
+        "F401",
+        "F405",
+        "F622",
+        "F631",
+        "F70",
+        "F8",
+        "N804",
+        "N805",
+    ],
+    "ruff.nativeServer": "on",
+}
